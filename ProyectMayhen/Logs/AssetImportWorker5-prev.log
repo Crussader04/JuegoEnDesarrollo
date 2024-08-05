@@ -1,0 +1,1155 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Usuario/ProyectMayhen
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49993
+Successfully changed project path to: C:/Users/Usuario/ProyectMayhen
+C:/Users/Usuario/ProyectMayhen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10652]  Target information:
+
+Player connection [10652]  * "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 1170434539 [EditorId] 1170434539 [Version] 1048832 [Id] WindowsEditor(7,Cristian) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 15.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/ProyectMayhen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5936 MB
+    Driver:   31.0.15.4683
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009262 seconds.
+- Loaded All Assemblies, in  0.387 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.282 seconds
+Domain Reload Profiling: 668ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (282ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.807 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 1557ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (565ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5676 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.9 MB). Loaded Objects now: 6128.
+Memory consumption went from 216.2 MB to 215.3 MB.
+Total: 3.951300 ms (FindLiveObjects: 0.386900 ms CreateObjectMapping: 0.155600 ms MarkObjects: 3.019900 ms  DeleteObjects: 0.387500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.457 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.714 seconds
+Domain Reload Profiling: 2169ms
+	BeginReloadAssembly (1000ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (774ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 6.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5702 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.0 MB). Loaded Objects now: 6308.
+Memory consumption went from 197.6 MB to 196.6 MB.
+Total: 4.728000 ms (FindLiveObjects: 0.560000 ms CreateObjectMapping: 0.278900 ms MarkObjects: 3.317400 ms  DeleteObjects: 0.570100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CinemachineGroupComposerEditor.cs: 54a07f36704e77a685a5e7e8c8b2c216 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfinerEditor.cs: cc6c898a3390647ab91613c8a96de4b4 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendDefinitionPropertyDrawer.cs: 7ae344d19d646b738f3c65294becf216 -> 
+  custom:scripting/monoscript/fileName/CinemachineTrackedDollyEditor.cs: b4d6784c58752cea58aafd9a76ca4459 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseManager.cs: c34be3577a810e26fd0110c580799b88 -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPath.cs: c28db2688f35d70587b5f943431a010a -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCamera.cs: aea2468a7384be4ba6d1b043ccec135d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettings.cs: 9adcb80668a56be4cd8e31c1d3dc60ae -> 
+  custom:scripting/monoscript/fileName/SignalSourceAsset.cs: f7ffd463dece56bad278f5a8d3ed7fc6 -> 
+  custom:scripting/monoscript/fileName/CinemachineCore.cs: fe6c3be993819098833de1628bfd76b2 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannelPropertyDrawer.cs: 4b6390a17916751618e2a45cb8d47a80 -> 
+  custom:scripting/monoscript/fileName/SerializedPropertyHelper.cs: b04ac165255e34bc2935ca9bf180e209 -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposer.cs: 7943c9d436748359882d8f978cf86c91 -> 
+  custom:scripting/monoscript/fileName/AxisState.cs: 1a494a66d8b9a58f4a6873f89bf5b094 -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShot.cs: 1da15f5c7903497ce3ae982ee4ee4779 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOVEditor.cs: 71db5a9242a182995b4ca15db516f628 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixer.cs: 2e36eb9e732dd7c8a32e8f83daebd6f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner.cs: 3813336c17662a5cb6b59ce5f1954254 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineBrain.cs: 365b4e0b6319f064062e97b8f8e32c8e -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinitionPropertyDrawer.cs: 1b2fc77b0a80a7e0e9045e0d44fb761c -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderPrefs.cs: 47106451d4685409820905badf49b71f -> 
+  custom:scripting/monoscript/fileName/CinemachineFollowZoom.cs: eb74e2e98d3dc4647324e113f34710ca -> 
+  custom:scripting/monoscript/fileName/CinemachineDebug.cs: 3077ed3b64725184c652d4c07ac732fd -> 
+  custom:scripting/monoscript/fileName/CinemachineLensPresets.cs: 014747fb0ab87178c677520d0bf20bf7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CinemachineCameraOffset.cs: a6887f67d3eb83cc6393b822d4e65121 -> 
+  custom:scripting/monoscript/fileName/ICinemachineCamera.cs: 2faad4f04eaf5d98c2870adbfb06184e -> 
+  custom:scripting/monoscript/fileName/CinemachineShotPlayable.cs: e346ad1ecb4af45da55274cb9abd9ec0 -> 
+  custom:scripting/monoscript/fileName/CinemachineTagFieldPropertyDrawer.cs: e78491a12decd558a49d01cc583bfcfb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CinemachineVolumeSettings.cs: 48d7865a989ec634d93ae8dcee459cea -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSourceEditor.cs: 0ef7804c69c18838aa65e6d5bae5b055 -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCameraEditor.cs: d74df442250b898c9b40669a19100e9d -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroupEditor.cs: f70ac85df8c1c9bd0b83a35534bafd1f -> 
+  custom:scripting/monoscript/fileName/CinemachineRecomposer.cs: 07354cca81f7d0775b027b5906330569 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposer.cs: aa226dd144b3a977b86ea888b85df5fa -> 
+  custom:scripting/monoscript/fileName/TargetPositionCache.cs: 49ce97e6930a536b43825141e0c2d3a4 -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCamera.cs: d76122377115c288d881064c3f07a3f1 -> 
+  custom:scripting/monoscript/fileName/ReflectionHelpers.cs: 60a5d38af3e775d0a421a7ff630d61cc -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCamera.cs: f16f2dc5bc1261579875c19605c45301 -> 
+  custom:scripting/monoscript/fileName/Predictor.cs: d51584936cb5b31b30ee7b444e03385b -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposerEditor.cs: 5ea2e4bec7ee6c24917bd86647f4bffa -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2DEditor.cs: 3f4b3d9b17ff5cd560135aa24f822994 -> 
+  custom:scripting/monoscript/fileName/GroupWeightManipulator.cs: 588749cf3436a8199e762a8e09bc8de7 -> 
+  custom:scripting/monoscript/fileName/AxisStatePropertyDrawer.cs: 2d807695a513641e771c78e6c342ff04 -> 
+  custom:scripting/monoscript/fileName/CinemachineScreenComposerGuides.cs: cdc7ea02ccc4c8d1561d98d16760d1ca -> 
+  custom:scripting/monoscript/fileName/CinemachinePropertyAttribute.cs: e8158d9725ac3a9129a08e46a4ff7519 -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraEditor.cs: 2e051d0c474634e907fe4123d6e2656e -> 
+  custom:scripting/monoscript/fileName/CinemachineSettings.cs: 197f6d5ad32e253546b5afa056a5bba4 -> 
+  custom:scripting/monoscript/fileName/CinemachineNoiseSettingsEditor.cs: 9056e69d9c759ba2504535054fff31c9 -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerAction.cs: cab9c5d02c28af05797c2c3743539bdb -> 
+  custom:scripting/monoscript/fileName/InspectorUtility.cs: d2444697ecf5f370ee1ff9969e9d66f8 -> 1cf92e4af45cb9e9886ec49564b001a9
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettingsEditor.cs: c57aa7de12bc3e7367ca091f4902c67b -> 
+  custom:scripting/precompiled-assembly-types:Cinemachine: ddeb9d62afe5f9b9cc22254264a3a0e3 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinition.cs: 3d434086a2bdaf715abf85e79e9f14b4 -> 
+  custom:scripting/precompiled-assembly-types:com.unity.cinemachine.editor: 1f055bd45c76785b23209ab6ee180f29 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollowEditor.cs: f79aa162534f81c680877e6274b5d6ec -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetPropertyDrawer.cs: fd7ebc18093de04c88d0cfc86fb060f5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ConfinerOven.cs: ff23c03e90b61beb34474fc6e4ff668c -> 
+  custom:scripting/monoscript/fileName/WaveformWindow.cs: 01bbc4fc017d41a2bab7fb57c988e8da -> 
+  custom:scripting/monoscript/fileName/CinemachinePipeline.cs: 6ca7a5979a0a73ea1d450a8fc9b437ef -> 
+  custom:scripting/monoscript/fileName/VcamStageEditor.cs: 84b0eaf932b448975a99972628e556d8 -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposerEditor.cs: 1653e1c00b2ca68b1d40f01e5bfb8445 -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCameraEditor.cs: 77d9f0a97385f936d9b4ffaa686bce39 -> 
+  custom:scripting/monoscript/fileName/OrbitalTransposerHeadingPropertyDrawer.cs: 22496b76ce84f35f630c90badc4babd8 -> 
+  custom:scripting/monoscript/fileName/CinemachinePathEditor.cs: ce10985fbf0e018e2dea63fedae131ba -> 
+  custom:scripting/monoscript/fileName/CinemachineCollider.cs: 8fa92f525b1c31cd81812685d7f8c288 -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSourceEditor.cs: 29f9a522ec6b23375849ba08fd597c8d -> 
+  custom:scripting/monoscript/fileName/CinemachineInputProvider.cs: ecb845de690695f08b3b3bb647cc7006 -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderEditor.cs: 859d1abbd669ee84cb713f6d4d0e1c5f -> 
+  custom:scripting/monoscript/fileName/CinemachineExtension.cs: 6968db4afcdc301f6acb1ef4fbadb2f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroup.cs: 10a09aa736b3a25da6dd9fc3c4dd9d36 -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetHelpers.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCamera.cs: 66104ac24fef171d9f5d5b93a8cb2f83 -> 
+  custom:scripting/monoscript/fileName/CinemachineComponentBase.cs: 5293f153c13e9bd2fc262ec31ff69206 -> 
+  custom:scripting/monoscript/fileName/BaseEditor.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAt.cs: 792580aec23d39bcecd7ceea4c27a0ce -> 
+  custom:scripting/monoscript/fileName/CinemachineInputAxisDriver.cs: 7e424e54660fed310c58dc98ea41042e -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboardEditor.cs: 2e7ec8bfb72013eaaff4873a27da019c -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlin.cs: bd5416e75860cd63657371207eb79058 -> 
+  custom:scripting/monoscript/fileName/CinemachineVolumeSettingsEditor.cs: 7c8fb727adcc2db0614f3f0f2f35cb54 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCamera.cs: 739c5ceb76c01023f431794ec46a0177 -> 
+  custom:scripting/monoscript/fileName/CinemachinePath.cs: b443d3c8837a65ddc3c78741cd58ec71 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListenerEditor.cs: d5d28e418f87c111bce1c1b98f1f70ba -> 
+  custom:scripting/monoscript/fileName/CinemachineDollyCart.cs: bbe9d07f4a2f7ee5ab002e66cb05f922 -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboard.cs: 59a2099f76be9b47af1e12ed7d40f553 -> 
+  custom:scripting/monoscript/fileName/CinemachinePixelPerfect.cs: b7f26206e386f5a110efe79462337683 -> d8eeccc3084a3215230031c76ddf563b
+  custom:scripting/monoscript/fileName/CinemachineTrackedDolly.cs: f6a9c21b27ad86d45f62f6b444ccbb49 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAtEditor.cs: 15b8f2af6a6d786898ce5dd6b0db26dc -> 
+  custom:scripting/monoscript/fileName/CinemachineComposer.cs: e399dfd36807c341da7cd182ce299d1e -> 
+  custom:scripting/monoscript/fileName/CinemachineTrack.cs: 4b50d47d507c57dc81b82253ec075194 -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPathEditor.cs: 7555bcba4eb760e012dd21c6730ae562 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectUtility.cs: c529d074f6f57a07e3f410d488963bbc -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposer.cs: 71c52878ba6d43827473a480056a99da -> 
+  custom:scripting/monoscript/fileName/CinemachinePathBase.cs: debb99764287c54cae06313e2d6a1fe1 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSource.cs: ac073b8453e26c5dd422d5f1a90a7ff2 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseEnvelopePropertyDrawer.cs: 07e00c9c84964a5c7e4f3f19e4263ec1 -> 
+  custom:scripting/monoscript/fileName/SplineHelpers.cs: 9e5bf4293b3828088291b7871e233a27 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTargetEditor.cs: 6def40fc1e39b3242347b6630fb5127e -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCameraEditor.cs: dbc12d2a9f3e2999a067290c411b2aca -> 
+  custom:scripting/monoscript/fileName/CinemachineShot.cs: 3d4d9d05534db20e82d871d98ea52716 -> 
+  custom:scripting/monoscript/fileName/UnityVectorExtensions.cs: 052777772edecdffe26d41a6a989641e -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlinEditor.cs: d6749cd6c482efa27bdd41f60394f1b9 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannels.cs: a9a39cc5ecea1f083db0fce154eec19c -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTarget.cs: d349308c5b4f600a345055c394206f52 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2D.cs: beb10be0db8ff9d3a94bd0a150963b9b -> 
+  custom:scripting/monoscript/fileName/LensSettings.cs: 4335e899502c57ee4480b8c9aa915366 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonAim.cs: 4bd230d915f070bb3cae23bef6f7ab70 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListener.cs: 6aac146243d38e7a67346170caa40ea1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CinemachineMenu.cs: 7b932811d9fa1e44d0d8b2b9ed75adf3 -> 
+  custom:scripting/monoscript/fileName/RuntimeUtility.cs: 8c92a9f673836e5d2084dbeb0f10159f -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLook.cs: bebc32b18bc4beddc113bad68624e557 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CinemachineGroupComposer.cs: 173a689a80ef321c302f9c045419668f -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBase.cs: c7e60cccdcb14ee2a33da9fd46c1c54f -> 
+  custom:scripting/monoscript/fileName/CinemachineFixedSignal.cs: aedcdca7a861da6e456e0ae105b24c41 -> 
+  custom:scripting/monoscript/fileName/CinemachineShotClipEditor.cs: 123a48531bf1d1b4f3c8398556caec62 -> 
+  custom:scripting/monoscript/fileName/CinemachineTouchInputMapper.cs: b9698729a07a7d31c864247e0582b566 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOV.cs: e4df06d1994174afa286b103eb06ee7f -> 
+  custom:scripting/monoscript/fileName/CinemachineBlend.cs: f33659d50c4d86144d649aa7e8196529 -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLookEditor.cs: 9641291977c1891a004ac4c4c259e1c8 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposerEditor.cs: 85841a774ddea4fb7232a7a585f716b4 -> 
+  custom:scripting/monoscript/fileName/clipper.cs: 53f5c40fad751f34bbeafb535c00f79e -> 22e13a245d7963b8d93b36b8648c74f6
+  custom:scripting/monoscript/fileName/NoiseSettings.cs: 443d576e0c72ab62870476103c9384ec -> 
+  custom:scripting/monoscript/fileName/GaussianFilter.cs: 0a3672ebe80edf7c5daca82445c15683 -> 
+  custom:scripting/monoscript/fileName/CinemachineSceneTools.cs: d63880a6073ab3335301b115db235b5b -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerActionEditor.cs: 2309a2ec6192ace4cae8bab5a535978e -> 
+  custom:scripting/monoscript/fileName/VcamTargetPropertyDrawer.cs: 9208050b1312b118a226fef2d63e8fa1 -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSource.cs: 9aae5e368cb7786be199f98f2122f96d -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShotEditor.cs: ca8875b47e775cd361c78158d7923690 -> 
+  custom:scripting/monoscript/fileName/CinemachineEditorAnalytics.cs: de76cc292d7ecedcf47af6616498c9f9 -> 
+  custom:scripting/monoscript/fileName/NoiseSettingsPropertyDrawer.cs: 8d3f69ba7eeec63914970bd3136b6ace -> 
+  custom:scripting/monoscript/fileName/CinemachineBrainEditor.cs: 49621d8b7679c0b5d128fef53d55becd -> 
+  custom:scripting/monoscript/fileName/CinemachineShotEditor.cs: 2ba28b209a4ad7f0a791994d2360a9af -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTargetEditor.cs: c65eaafd47115974a2a9379aae467b0e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraState.cs: 3ec03858e4f5bd5578e14e2ade4f1591 -> 784b031cde26e82771e0f45b6a811817
+  custom:scripting/monoscript/fileName/CinemachineToolbarOverlay.cs: 371b6fc494252d6fda34e207e170cb66 -> 
+  custom:scripting/monoscript/fileName/CinemachineIndependentImpulseListener.cs: 91ae8748b9c36955c333e57505ff90fb -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCameraEditor.cs: 1c122a21d710512fec62cdc7bd351681 -> 
+  custom:scripting/monoscript/fileName/CinemachinePostProcessing.cs: bf9b100a1b61fd5383288bc96487c194 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTarget.cs: bcfa2d394e1e5460b4ef3dc039214a16 -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBaseEditor.cs: 13ee4931cd85df4b22852d0547b5e690 -> 
+  custom:scripting/monoscript/fileName/UpdateTracker.cs: 3dac8a24a32a32e4bbfeb38ed26ef250 -> 
+  custom:scripting/monoscript/fileName/CinemachineComposerEditor.cs: dda533b9c6cb2b366292f584704bd904 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollow.cs: 4600bac2bdf6b37d80e86f9aa5a413c3 -> 
+  custom:scripting/monoscript/fileName/SaveDuringPlay.cs: de39f1962b337699845d3d8a2e8f5bde -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.608 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.669 seconds
+Domain Reload Profiling: 2272ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (373ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1669ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 7.26 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5857 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.3 MB). Loaded Objects now: 6472.
+Memory consumption went from 202.6 MB to 201.4 MB.
+Total: 3.896100 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.143200 ms MarkObjects: 2.916600 ms  DeleteObjects: 0.480500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CinemachineGroupComposerEditor.cs: 54a07f36704e77a685a5e7e8c8b2c216 -> 
+  custom:scripting/monoscript/fileName/WEBMRecorderSettingsEditor.cs: 5559c87f45d3b65fac8d5ac4ef5e81c8 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfinerEditor.cs: cc6c898a3390647ab91613c8a96de4b4 -> 
+  custom:scripting/monoscript/fileName/UIElementHelper.cs: 9f9438adfe3361012ea6280d4cdb2df4 -> 
+  custom:scripting/monoscript/fileName/AOVCameraInput.cs: c23c8ce885672bc57e25263b3efd067a -> 
+  custom:scripting/monoscript/fileName/BaseTextureRecorder.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Recorder.cs: a7e319d512627774f8215ba0b76f0bcb -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendDefinitionPropertyDrawer.cs: 7ae344d19d646b738f3c65294becf216 -> 
+  custom:scripting/monoscript/fileName/AudioRecorder.cs: 89550121570f22445b4a1b28daea3cf9 -> 
+  custom:scripting/monoscript/fileName/CinemachineTrackedDollyEditor.cs: b4d6784c58752cea58aafd9a76ca4459 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseManager.cs: c34be3577a810e26fd0110c580799b88 -> 
+  custom:scripting/monoscript/fileName/PanelSplitter.cs: 5ff6c6e385b6b12ca322a9c92ac6f371 -> 
+  custom:scripting/monoscript/fileName/ImageRecorderSettings.cs: a7ab05fac9382c03607c40fe73956ed6 -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPath.cs: c28db2688f35d70587b5f943431a010a -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCamera.cs: aea2468a7384be4ba6d1b043ccec135d -> 
+  custom:scripting/monoscript/fileName/RecorderClip.cs: 897017f45cb3c30f306724d1fa17a8fe -> 
+  custom:scripting/monoscript/fileName/GIFRecorderSettings.cs: 979f88ae1e7731daed242ab2fdebbc0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MovieRecorder.cs: 024785cf83e1399f425b2aa115d22e2b -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettings.cs: 9adcb80668a56be4cd8e31c1d3dc60ae -> 
+  custom:scripting/monoscript/fileName/SignalSourceAsset.cs: f7ffd463dece56bad278f5a8d3ed7fc6 -> 
+  custom:scripting/monoscript/fileName/RecorderControllerSettingsPresetEditor.cs: 49aed206ae65ed5ac6b420f7104cd52d -> 
+  custom:scripting/monoscript/fileName/CinemachineCore.cs: fe6c3be993819098833de1628bfd76b2 -> 
+  custom:scripting/monoscript/fileName/AudioInput.cs: 499e96d8f0b35d362bd956c0975bb873 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannelPropertyDrawer.cs: 4b6390a17916751618e2a45cb8d47a80 -> 
+  custom:scripting/monoscript/fileName/WEBMRecorderSettings.cs: c176c43abbe456aeea55c2aef862801b -> 
+  custom:scripting/monoscript/fileName/SerializedPropertyHelper.cs: b04ac165255e34bc2935ca9bf180e209 -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposer.cs: 7943c9d436748359882d8f978cf86c91 -> 
+  custom:scripting/monoscript/fileName/RecorderControllerSettingsPreset.cs: 78b391c1384ac60213ef58d50e78d553 -> 
+  custom:scripting/monoscript/fileName/AxisState.cs: 1a494a66d8b9a58f4a6873f89bf5b094 -> 
+  custom:scripting/monoscript/fileName/GameViewInputSettings.cs: a7ae22123f532f5bbcb39c654c998b57 -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShot.cs: 1da15f5c7903497ce3ae982ee4ee4779 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOVEditor.cs: 71db5a9242a182995b4ca15db516f628 -> 
+  custom:scripting/monoscript/fileName/GameViewInputPropertyDrawer.cs: ae2c8a99c5e33d3d1ffc8232415130e8 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixer.cs: 2e36eb9e732dd7c8a32e8f83daebd6f4 -> 
+  custom:scripting/monoscript/fileName/Camera360Input.cs: dc473b118c57e0734b0cd3476e333c06 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner.cs: 3813336c17662a5cb6b59ce5f1954254 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineBrain.cs: 365b4e0b6319f064062e97b8f8e32c8e -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinitionPropertyDrawer.cs: 1b2fc77b0a80a7e0e9045e0d44fb761c -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderPrefs.cs: 47106451d4685409820905badf49b71f -> 
+  custom:scripting/monoscript/fileName/CinemachineFollowZoom.cs: eb74e2e98d3dc4647324e113f34710ca -> 
+  custom:scripting/monoscript/fileName/RecorderPreferencesSettingsProvider.cs: d92d314b87f7c2170e267636ebf38224 -> 
+  custom:scripting/monoscript/fileName/RecorderBindings.cs: ac25db5b587307cfea909607f62e5641 -> 
+  custom:scripting/monoscript/fileName/CinemachineDebug.cs: 3077ed3b64725184c652d4c07ac732fd -> 
+  custom:scripting/monoscript/fileName/CinemachineLensPresets.cs: 014747fb0ab87178c677520d0bf20bf7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GIFWrapper.cs: 6ef8898a12699129e8f81f06a649cad1 -> 
+  custom:scripting/monoscript/fileName/SceneHook.cs: 80fa8928b499d44515dd60e0bc895128 -> 
+  custom:scripting/monoscript/fileName/AnimationInput.cs: e810137278708a698c5ccddaeb1a1e64 -> 
+  custom:scripting/monoscript/fileName/CinemachineCameraOffset.cs: a6887f67d3eb83cc6393b822d4e65121 -> 
+  custom:scripting/monoscript/fileName/ICinemachineCamera.cs: 2faad4f04eaf5d98c2870adbfb06184e -> 
+  custom:scripting/monoscript/fileName/OutputResolutionPropertyDrawer.cs: 0e33ffdf424417a2e685685cfc04d4b1 -> 
+  custom:scripting/monoscript/fileName/EnumHelper.cs: 117b5609cc2a1ae41785cd0c8767815f -> 
+  custom:scripting/monoscript/fileName/OutputPath.cs: ee51fcffcd8929d224a5e3fb152d5f62 -> 
+  custom:scripting/monoscript/fileName/CinemachineShotPlayable.cs: e346ad1ecb4af45da55274cb9abd9ec0 -> 
+  custom:scripting/monoscript/fileName/FileNameGeneratorDrawer.cs: a3ea71dec141084df9b7ffa19c11e2cb -> 
+  custom:scripting/monoscript/fileName/CinemachineTagFieldPropertyDrawer.cs: e78491a12decd558a49d01cc583bfcfb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CinemachineVolumeSettings.cs: 48d7865a989ec634d93ae8dcee459cea -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSourceEditor.cs: 0ef7804c69c18838aa65e6d5bae5b055 -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCameraEditor.cs: d74df442250b898c9b40669a19100e9d -> 
+  custom:scripting/monoscript/fileName/RecorderPreferencesWindowGUIScope.cs: 7a2eba6fcb6829ea8b200991a02c9c06 -> 
+  custom:scripting/monoscript/fileName/AspectRatio.cs: 18e3efa554f8258b676d4de53e38b642 -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroupEditor.cs: f70ac85df8c1c9bd0b83a35534bafd1f -> 
+  custom:scripting/monoscript/fileName/CinemachineRecomposer.cs: 07354cca81f7d0775b027b5906330569 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposer.cs: aa226dd144b3a977b86ea888b85df5fa -> 
+  custom:scripting/monoscript/fileName/TargetPositionCache.cs: 49ce97e6930a536b43825141e0c2d3a4 -> 
+  custom:scripting/monoscript/fileName/CameraInputSettings.cs: 6738f6dd994f658d2cbf6f5f3ba05a0e -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCamera.cs: d76122377115c288d881064c3f07a3f1 -> 
+  custom:scripting/monoscript/fileName/RefHandle.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ReflectionHelpers.cs: 60a5d38af3e775d0a421a7ff630d61cc -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCamera.cs: f16f2dc5bc1261579875c19605c45301 -> 
+  custom:scripting/monoscript/fileName/CameraCapture.cs: c6dcba1380d9a4fa09f4e36182a45a73 -> 
+  custom:scripting/monoscript/fileName/RecorderControllerSettings.cs: 989e0caa64af9b76551d4ff6bd15f598 -> 
+  custom:scripting/monoscript/fileName/Predictor.cs: d51584936cb5b31b30ee7b444e03385b -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposerEditor.cs: 5ea2e4bec7ee6c24917bd86647f4bffa -> 
+  custom:scripting/monoscript/fileName/TargetedPropertyDrawer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2DEditor.cs: 3f4b3d9b17ff5cd560135aa24f822994 -> 
+  custom:scripting/monoscript/fileName/MovieRecorderSettings.cs: 02a667a67b113b1f65e3fcadcc882513 -> 
+  custom:scripting/monoscript/fileName/GroupWeightManipulator.cs: 588749cf3436a8199e762a8e09bc8de7 -> 
+  custom:scripting/monoscript/fileName/RenderTextureInputSettings.cs: ebca820667a63031a7597db85d26451a -> 
+  custom:scripting/monoscript/fileName/ImageRecorderEditor.cs: d3134ae4c1dfd8e056bace11130b7692 -> 
+  custom:scripting/monoscript/fileName/ProResEncoderSettings.cs: 4aca03881946a7fe9acacf199434009e -> 
+  custom:scripting/monoscript/fileName/AxisStatePropertyDrawer.cs: 2d807695a513641e771c78e6c342ff04 -> 
+  custom:scripting/monoscript/fileName/CinemachineScreenComposerGuides.cs: cdc7ea02ccc4c8d1561d98d16760d1ca -> 
+  custom:scripting/monoscript/fileName/CinemachinePropertyAttribute.cs: e8158d9725ac3a9129a08e46a4ff7519 -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraEditor.cs: 2e051d0c474634e907fe4123d6e2656e -> 
+  custom:scripting/monoscript/fileName/_FrameRequestComponent.cs: b34f171daaafc65da55ea68e2ed89f2b -> 
+  custom:scripting/monoscript/fileName/RenderTextureInput.cs: 5dea77837ae3c82bb14643cd82dc06dc -> 
+  custom:scripting/monoscript/fileName/CinemachineSettings.cs: 197f6d5ad32e253546b5afa056a5bba4 -> 
+  custom:scripting/monoscript/fileName/RecorderAnalytics.cs: 0fa40093f6ac3fe75e92d746d563e5ee -> 
+  custom:scripting/monoscript/fileName/CinemachineNoiseSettingsEditor.cs: 9056e69d9c759ba2504535054fff31c9 -> 
+  custom:scripting/monoscript/fileName/MP4RecorderSettingsEditor.cs: 68a64b16a7961d71fa7286fd1f782e9b -> 
+  custom:scripting/monoscript/fileName/RecorderBindingsEditor.cs: f7451a0e1cea6404b2976d2b2c42e273 -> 
+  custom:scripting/monoscript/fileName/BaseRenderTextureInput.cs: 5dc13661a5a0dca5d09ca211933a44e2 -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerAction.cs: cab9c5d02c28af05797c2c3743539bdb -> 
+  custom:scripting/monoscript/fileName/StatusBarHelper.cs: da04a6ed046f8a62f416d5d3ea415bef -> 
+  custom:scripting/precompiled-assembly-types:Unity.Recorder: bd5378c99f6216e06dd6e2c2a60a86a4 -> 
+  custom:scripting/monoscript/fileName/InspectorUtility.cs: d2444697ecf5f370ee1ff9969e9d66f8 -> 1cf92e4af45cb9e9886ec49564b001a9
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettingsEditor.cs: c57aa7de12bc3e7367ca091f4902c67b -> 
+  custom:scripting/monoscript/fileName/Camera360InputSettings.cs: 3d5eaf1cb3a9df6f9d1d52f3c3018c46 -> 
+  custom:scripting/precompiled-assembly-types:Cinemachine: ddeb9d62afe5f9b9cc22254264a3a0e3 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinition.cs: 3d434086a2bdaf715abf85e79e9f14b4 -> 
+  custom:scripting/precompiled-assembly-types:com.unity.cinemachine.editor: 1f055bd45c76785b23209ab6ee180f29 -> 
+  custom:scripting/monoscript/fileName/PNGRecorderSettingsEditor.cs: 4970e6657bb34f7efc2c7d8168c7358b -> 
+  custom:scripting/monoscript/fileName/ImageHeightSelector.cs: d1a7972bf1d79d90f09ab23c718afe39 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollowEditor.cs: f79aa162534f81c680877e6274b5d6ec -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetPropertyDrawer.cs: fd7ebc18093de04c88d0cfc86fb060f5 -> 
+  custom:scripting/monoscript/fileName/AnimationInputSettings.cs: d64a99ebbd13660e9264cb4111ab9832 -> 
+  custom:scripting/monoscript/fileName/MP4RecorderSettings.cs: 551f5535c05b86d6ee91684eced14987 -> 
+  custom:scripting/monoscript/fileName/RecorderPreferencesSettings.cs: 761b0a55fc5e50239a1d0c4bfc968274 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/RecorderSettingsPrefsEditor.cs: ba9e697f1d269c2c960a41bc543fa408 -> 
+  custom:scripting/monoscript/fileName/RecordModePropertyDrawer.cs: 165332db07362bbcab2d8dc6d1e1dfda -> 
+  custom:scripting/monoscript/fileName/ProResWrapper.cs: 712515ef615766c98115c6a20d85d6c8 -> 
+  custom:scripting/monoscript/fileName/ImageInputSettings.cs: 98a2aedd167d40f01804b04845eeaf15 -> 
+  custom:scripting/monoscript/fileName/ConfinerOven.cs: ff23c03e90b61beb34474fc6e4ff668c -> 
+  custom:scripting/monoscript/fileName/SerializableObjHelper.cs: f19f181f3f05e8e393225dd7030fb66a -> 
+  custom:scripting/monoscript/fileName/WaveformWindow.cs: 01bbc4fc017d41a2bab7fb57c988e8da -> 
+  custom:scripting/monoscript/fileName/CinemachinePipeline.cs: 6ca7a5979a0a73ea1d450a8fc9b437ef -> 
+  custom:scripting/monoscript/fileName/InputPropertyDrawer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AudioInputSettings.cs: a2c930fca1dd5e27705fbacf39727bb4 -> 
+  custom:scripting/monoscript/fileName/VcamStageEditor.cs: 84b0eaf932b448975a99972628e556d8 -> 
+  custom:scripting/monoscript/fileName/InputSettings.cs: 35c56ce5488c6b464726305dcbd33b3d -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposerEditor.cs: 1653e1c00b2ca68b1d40f01e5bfb8445 -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCameraEditor.cs: 77d9f0a97385f936d9b4ffaa686bce39 -> 
+  custom:scripting/monoscript/fileName/RecorderEditor.cs: 736e59ba52eea987abc47f36a836e575 -> 
+  custom:scripting/monoscript/fileName/OrbitalTransposerHeadingPropertyDrawer.cs: 22496b76ce84f35f630c90badc4babd8 -> 
+  custom:scripting/monoscript/fileName/AudioRecorderSettings.cs: 0b00f2c93558486cc61a06f270f43fea -> 
+  custom:scripting/monoscript/fileName/CinemachinePathEditor.cs: ce10985fbf0e018e2dea63fedae131ba -> 
+  custom:scripting/monoscript/fileName/CinemachineCollider.cs: 8fa92f525b1c31cd81812685d7f8c288 -> 
+  custom:scripting/monoscript/fileName/RecordersInventory.cs: fb714c8df18f9b7fc7f3361f604ae3dc -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSourceEditor.cs: 29f9a522ec6b23375849ba08fd597c8d -> 
+  custom:scripting/monoscript/fileName/BaseFCRecorderSettings.cs: fab928553cedb8703ac192d6cf7b6294 -> 
+  custom:scripting/monoscript/fileName/AOVRecorderSettings.cs: cdc731153cd2f1f739300a28ea6a6608 -> 
+  custom:scripting/monoscript/fileName/CinemachineInputProvider.cs: ecb845de690695f08b3b3bb647cc7006 -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderEditor.cs: 859d1abbd669ee84cb713f6d4d0e1c5f -> 
+  custom:scripting/monoscript/fileName/EXRCompressionTypeDrawer.cs: 301cb614ecf84a4dab346c5f76ea2016 -> 
+  custom:scripting/monoscript/fileName/CinemachineExtension.cs: 6968db4afcdc301f6acb1ef4fbadb2f4 -> 
+  custom:scripting/monoscript/fileName/AOVRecorder.cs: c53e83f1863b3ea80b6df3885cdb8c82 -> 
+  custom:scripting/monoscript/fileName/IEncoderSettings.cs: c7d04fadacf538db841606cc656ae724 -> 
+  custom:scripting/monoscript/fileName/ShutterProfileTypePropertyDrawer.cs: 18a32c647eca27716eabcb5a44f00e32 -> 
+  custom:scripting/monoscript/fileName/MovieRecorderEditor.cs: eb00ddb8a76b8dfb7c88b7826a49d38b -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroup.cs: 10a09aa736b3a25da6dd9fc3c4dd9d36 -> 
+  custom:scripting/monoscript/fileName/RenderTextureInputSettingsPropertyDrawer.cs: 809602b52454cd1e6229756218a8f453 -> 
+  custom:scripting/monoscript/fileName/RecorderPlayableBehaviour.cs: 80165a21f4cd0dda690f708a19d389bd -> 
+  custom:scripting/monoscript/fileName/GifEncoderSettingsPropertyDrawer.cs: b36c9a7eaaefccda514b23d7e14761ca -> 
+  custom:scripting/monoscript/fileName/PNGRecorder.cs: 08fd40f88cb6b18c96882f263639f57d -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetHelpers.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CameraInputSettingsPropertyDrawer.cs: 91928abf1abf88be098cb088d896aec5 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCamera.cs: 66104ac24fef171d9f5d5b93a8cb2f83 -> 
+  custom:scripting/monoscript/fileName/AudioRecorderEditor.cs: 565168dec291afe3fa470657cfc2c123 -> 
+  custom:scripting/monoscript/fileName/AOVRecorderEditor.cs: 5ca53ccd6d7645709639507726114395 -> 
+  custom:scripting/monoscript/fileName/CinemachineComponentBase.cs: 5293f153c13e9bd2fc262ec31ff69206 -> 
+  custom:scripting/monoscript/fileName/BaseEditor.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAt.cs: 792580aec23d39bcecd7ceea4c27a0ce -> 
+  custom:scripting/monoscript/fileName/RecordingSession.cs: f3ad08157c278a036224ca395f350890 -> 
+  custom:scripting/monoscript/fileName/CinemachineInputAxisDriver.cs: 7e424e54660fed310c58dc98ea41042e -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboardEditor.cs: 2e7ec8bfb72013eaaff4873a27da019c -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlin.cs: bd5416e75860cd63657371207eb79058 -> 
+  custom:scripting/monoscript/fileName/GameViewSize.cs: f6128a6515fcafce6db32fcdfa107254 -> 
+  custom:scripting/monoscript/fileName/CinemachineVolumeSettingsEditor.cs: 7c8fb727adcc2db0614f3f0f2f35cb54 -> 
+  custom:scripting/monoscript/fileName/UnityHelpers.cs: b3e077029b574be508585124a9d839ef -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/GIFRecorder.cs: c00ece885699fb9084deaccd3eb27518 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCamera.cs: 739c5ceb76c01023f431794ec46a0177 -> 
+  custom:scripting/monoscript/fileName/CinemachinePath.cs: b443d3c8837a65ddc3c78741cd58ec71 -> 
+  custom:scripting/monoscript/fileName/EXRRecorder.cs: 3f576ce8ddd959d51a4d7ba1999ecdbb -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListenerEditor.cs: d5d28e418f87c111bce1c1b98f1f70ba -> 
+  custom:scripting/monoscript/fileName/RenderTextureSampler.cs: 1a7b9abab9548e1054dc40d6e2fa0270 -> 
+  custom:scripting/monoscript/fileName/GifEncoder.cs: 40f336d5c5042a8a04556b4c5804a538 -> 
+  custom:scripting/monoscript/fileName/WEBMRecorder.cs: 391b6b920cfbc02401ea522620320c93 -> 
+  custom:scripting/monoscript/fileName/CinemachineDollyCart.cs: bbe9d07f4a2f7ee5ab002e66cb05f922 -> 
+  custom:scripting/monoscript/fileName/GenericRecorder.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboard.cs: 59a2099f76be9b47af1e12ed7d40f553 -> 
+  custom:scripting/monoscript/fileName/ImageInputSelector.cs: f55822da877594150873922341be92b6 -> 
+  custom:scripting/monoscript/fileName/AnimationRecorderSettingsEditor.cs: db1294bf3d48be44b6e4b2f2cc100b02 -> 
+  custom:scripting/monoscript/fileName/RecorderTrack.cs: fac9638ece7eb7daaa1302fa170613fd -> 
+  custom:scripting/monoscript/fileName/InputSettingsSelector.cs: 499a4ec92267406782b5c4f3472d53b9 -> 
+  custom:scripting/monoscript/fileName/CinemachinePixelPerfect.cs: b7f26206e386f5a110efe79462337683 -> d8eeccc3084a3215230031c76ddf563b
+  custom:scripting/monoscript/fileName/CinemachineTrackedDolly.cs: f6a9c21b27ad86d45f62f6b444ccbb49 -> 
+  custom:scripting/monoscript/fileName/FileNameGenerator.cs: 5c8b6eb5291c3311189e0dfadac99363 -> 
+  custom:scripting/monoscript/fileName/RecorderItem.cs: b62d2fcb9547a248575727d8a1646db8 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAtEditor.cs: 15b8f2af6a6d786898ce5dd6b0db26dc -> 
+  custom:scripting/monoscript/fileName/TextureFlipper.cs: 825b503b2ddab9cbd8ebbf3038075092 -> 
+  custom:scripting/monoscript/fileName/AccumulationSettings.cs: fb962f0c2333934b681b167574f5e1cd -> 
+  custom:scripting/monoscript/fileName/CinemachineComposer.cs: e399dfd36807c341da7cd182ce299d1e -> 
+  custom:scripting/monoscript/fileName/CinemachineTrack.cs: 4b50d47d507c57dc81b82253ec075194 -> 
+  custom:scripting/monoscript/fileName/Camera360InputPropertyDrawer.cs: af647a2fe91bec98139246321cac865d -> 
+  custom:scripting/monoscript/fileName/RecorderClipEditor.cs: 947ad5ff1f968d7fc40767d187070964 -> 
+  custom:scripting/monoscript/fileName/EXRRecorderSettingsEditor.cs: c520a04c5f01331f2c8800e289ef6d6f -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPathEditor.cs: 7555bcba4eb760e012dd21c6730ae562 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectUtility.cs: c529d074f6f57a07e3f410d488963bbc -> 
+  custom:scripting/monoscript/fileName/CoreEncoder.cs: dfaed86e82ad12e6a2b6740a0fb35820 -> 
+  custom:scripting/monoscript/fileName/PNGRecorderSettings.cs: 79a421225358808ff14dd88c0355d1b6 -> 
+  custom:scripting/monoscript/fileName/AspectRatioPropertyDrawer.cs: 9f18568574138839573389bde3e660a7 -> 
+  custom:scripting/monoscript/fileName/ProResEncoder.cs: b375bf2d41e3d89081c3f2d1a0823bf3 -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposer.cs: 71c52878ba6d43827473a480056a99da -> 
+  custom:scripting/monoscript/fileName/CameraInput.cs: bf7e0df3caf9e500f6d1c98c99e165ba -> 
+  custom:scripting/monoscript/fileName/RecorderSettings.cs: bc3ef26ac157af28e5460886c0d5ef2e -> 
+  custom:scripting/monoscript/fileName/CinemachinePathBase.cs: debb99764287c54cae06313e2d6a1fe1 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSource.cs: ac073b8453e26c5dd422d5f1a90a7ff2 -> 
+  custom:scripting/monoscript/fileName/RecorderClipTimelineEditor.cs: 2995d9f50ebc9245c6e9bd75c56415fb -> 
+  custom:scripting/monoscript/fileName/EncoderSettingsAttribute.cs: 8352396dc11cff58c65c429fdb4fc67e -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseEnvelopePropertyDrawer.cs: 07e00c9c84964a5c7e4f3f19e4263ec1 -> 
+  custom:scripting/monoscript/fileName/SplineHelpers.cs: 9e5bf4293b3828088291b7871e233a27 -> 
+  custom:scripting/monoscript/fileName/MP4Recorder.cs: af531c4e1f6d23547da08837eb16b729 -> 
+  custom:scripting/monoscript/fileName/EncoderTypeUtilities.cs: a12c4c78a6cd4fb6b93180d59ad77be8 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTargetEditor.cs: 6def40fc1e39b3242347b6630fb5127e -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCameraEditor.cs: dbc12d2a9f3e2999a067290c411b2aca -> 
+  custom:scripting/monoscript/fileName/PooledBufferAsyncGPUReadback.cs: 2a4e50c5dda177306c9ec935763c4378 -> 
+  custom:scripting/monoscript/fileName/CinemachineShot.cs: 3d4d9d05534db20e82d871d98ea52716 -> 
+  custom:scripting/monoscript/fileName/UnityVectorExtensions.cs: 052777772edecdffe26d41a6a989641e -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlinEditor.cs: d6749cd6c482efa27bdd41f60394f1b9 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannels.cs: a9a39cc5ecea1f083db0fce154eec19c -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTarget.cs: d349308c5b4f600a345055c394206f52 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2D.cs: beb10be0db8ff9d3a94bd0a150963b9b -> 
+  custom:scripting/monoscript/fileName/LensSettings.cs: 4335e899502c57ee4480b8c9aa915366 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonAim.cs: 4bd230d915f070bb3cae23bef6f7ab70 -> 
+  custom:scripting/monoscript/fileName/AnimationRecorder.cs: f749a4250195b5467bbf05e3a976b59f -> 
+  custom:scripting/precompiled-assembly-types:Unity.Recorder.Base: 3fec19fdf10e3518c41e41a932f2042f -> 
+  custom:scripting/monoscript/fileName/AnimationRecorderSettings.cs: 5cfb1544a40f93fe0ea879bb1361c877 -> 
+  custom:scripting/monoscript/fileName/RenderTextureSamplerSettings.cs: 68adab84706346f2ecbdfd649ca9cf61 -> 
+  custom:scripting/monoscript/fileName/RecordingContext.cs: af9af1e8b283703482ba133924b5585a -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListener.cs: 6aac146243d38e7a67346170caa40ea1 -> 
+  custom:scripting/monoscript/fileName/RecorderSelector.cs: c3cd2caacd181d6eff54dc260c4a1ffb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/RecorderInput.cs: 88fd8d8fd71b34ed7298a01f6c2d2e40 -> 
+  custom:scripting/monoscript/fileName/RenderTextureSamplerPropertyDrawer.cs: b541817d9cc9b1341d2ddfa8823b718d -> 
+  custom:scripting/monoscript/fileName/CinemachineMenu.cs: 7b932811d9fa1e44d0d8b2b9ed75adf3 -> 
+  custom:scripting/monoscript/fileName/RuntimeUtility.cs: 8c92a9f673836e5d2084dbeb0f10159f -> 
+  custom:scripting/monoscript/fileName/RecorderSettingsAttribute.cs: ddd228b25da7ba2ac10d13e1efacc875 -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLook.cs: bebc32b18bc4beddc113bad68624e557 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CinemachineGroupComposer.cs: 173a689a80ef321c302f9c045419668f -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBase.cs: c7e60cccdcb14ee2a33da9fd46c1c54f -> 
+  custom:scripting/monoscript/fileName/CinemachineFixedSignal.cs: aedcdca7a861da6e456e0ae105b24c41 -> 
+  custom:scripting/monoscript/fileName/OutputPathDrawer.cs: cffc34c1be094e6caeb13ff3b26ca679 -> 
+  custom:scripting/monoscript/fileName/CinemachineShotClipEditor.cs: 123a48531bf1d1b4f3c8398556caec62 -> 
+  custom:scripting/monoscript/fileName/EditorVersionsHelper.cs: 3ad9098caeeff0295dba8c0911f5333a -> 
+  custom:scripting/monoscript/fileName/CinemachineTouchInputMapper.cs: b9698729a07a7d31c864247e0582b566 -> 
+  custom:scripting/monoscript/fileName/SettingAsset.cs: 7c3790954696ae83d71055079b387931 -> 
+  custom:scripting/monoscript/fileName/OutputResolution.cs: 31c632d97e9a69bcc2ef10f6feb5bf62 -> 
+  custom:scripting/monoscript/fileName/AccumulationSettingsPropertyDrawer.cs: bfc920db0de3c29c2967e88aac1c1027 -> 
+  custom:scripting/monoscript/fileName/AnimationInputSettingsPropertyDrawer.cs: ebe1771fecebe7a93badf6354f59c990 -> 
+  custom:scripting/monoscript/fileName/CoreEncoderSettings.cs: 2b5db1db3c1fa7de4175a7e143de3ce5 -> 
+  custom:scripting/monoscript/fileName/VisualListItem.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOV.cs: e4df06d1994174afa286b103eb06ee7f -> 
+  custom:scripting/monoscript/fileName/FrameRateProperyDrawer.cs: c478c798f5354f66af45b380be0629f9 -> 
+  custom:scripting/monoscript/fileName/InputSettingsSelectorDrawer.cs: bca46dd5b59e2f574c94bef4cdb878fb -> 
+  custom:scripting/monoscript/fileName/CinemachineBlend.cs: f33659d50c4d86144d649aa7e8196529 -> 
+  custom:scripting/monoscript/fileName/RecorderWindow.cs: 553a30d64d5ef1dcad6b00b4eeeb3829 -> 
+  custom:scripting/monoscript/fileName/AOVCameraInputSettings.cs: 4d2fdf1142ce53d73cb43d39944ba516 -> 
+  custom:scripting/monoscript/fileName/EnumProperyDrawer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLookEditor.cs: 9641291977c1891a004ac4c4c259e1c8 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposerEditor.cs: 85841a774ddea4fb7232a7a585f716b4 -> 
+  custom:scripting/monoscript/fileName/clipper.cs: 53f5c40fad751f34bbeafb535c00f79e -> 22e13a245d7963b8d93b36b8648c74f6
+  custom:scripting/monoscript/fileName/NoiseSettings.cs: 443d576e0c72ab62870476103c9384ec -> 
+  custom:scripting/monoscript/fileName/GaussianFilter.cs: 0a3672ebe80edf7c5daca82445c15683 -> 
+  custom:scripting/monoscript/fileName/CinemachineSceneTools.cs: d63880a6073ab3335301b115db235b5b -> 
+  custom:scripting/monoscript/fileName/AOVImageInputSelector.cs: b741d8d3a7cbb503c5bdf23d7e6792db -> 
+  custom:scripting/monoscript/fileName/CoreEncoderSettingsPropertyDrawer.cs: c8bdf3420d844fd4604c0d0cf3815355 -> 
+  custom:scripting/monoscript/fileName/GifEncoderSettings.cs: 812ca6afdf48b830953d76adab9d4030 -> 
+  custom:scripting/monoscript/fileName/GIFRecorderSettingsEditor.cs: 4d0f46bcf58d188895fabae5334995ae -> 
+  custom:scripting/monoscript/fileName/IEncoder.cs: 007c2ef621b0d92b5a7a6bae91d26090 -> 
+  custom:scripting/monoscript/fileName/RecorderOptions.cs: 74782d297e80d8f56c0e05a7cde4e51d -> 
+  custom:scripting/precompiled-assembly-types:Unity.Recorder.Editor: cd22b836ef1ca10e7d8c91c9be46b4bf -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerActionEditor.cs: 2309a2ec6192ace4cae8bab5a535978e -> 
+  custom:scripting/monoscript/fileName/VcamTargetPropertyDrawer.cs: 9208050b1312b118a226fef2d63e8fa1 -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSource.cs: 9aae5e368cb7786be199f98f2122f96d -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShotEditor.cs: ca8875b47e775cd361c78158d7923690 -> 
+  custom:scripting/monoscript/fileName/CinemachineEditorAnalytics.cs: de76cc292d7ecedcf47af6616498c9f9 -> 
+  custom:scripting/monoscript/fileName/ProResEncoderSettingsPropertyDrawer.cs: 68c25e6d4459336217d4b9e22eb707b4 -> 
+  custom:scripting/monoscript/fileName/ImageRecorder.cs: b804c29bfc59a61db184c1d275fe4101 -> 
+  custom:scripting/monoscript/fileName/NoiseSettingsPropertyDrawer.cs: 8d3f69ba7eeec63914970bd3136b6ace -> 
+  custom:scripting/monoscript/fileName/EditableLabel.cs: 4f8fa2c6092744ed6607a411e3f617c0 -> 
+  custom:scripting/monoscript/fileName/CinemachineBrainEditor.cs: 49621d8b7679c0b5d128fef53d55becd -> 
+  custom:scripting/monoscript/fileName/CinemachineShotEditor.cs: 2ba28b209a4ad7f0a791994d2360a9af -> 
+  custom:scripting/monoscript/fileName/GameViewInput.cs: 596e7ffa2d11b2002176644af3247ea6 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTargetEditor.cs: c65eaafd47115974a2a9379aae467b0e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraState.cs: 3ec03858e4f5bd5578e14e2ade4f1591 -> 784b031cde26e82771e0f45b6a811817
+  custom:scripting/monoscript/fileName/SerializedDictionnary.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineToolbarOverlay.cs: 371b6fc494252d6fda34e207e170cb66 -> 
+  custom:scripting/monoscript/fileName/HammersleySequence.cs: b06601f044912976f668045b7d4c79a8 -> 
+  custom:scripting/monoscript/fileName/CinemachineIndependentImpulseListener.cs: 91ae8748b9c36955c333e57505ff90fb -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCameraEditor.cs: 1c122a21d710512fec62cdc7bd351681 -> 
+  custom:scripting/monoscript/fileName/CinemachinePostProcessing.cs: bf9b100a1b61fd5383288bc96487c194 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTarget.cs: bcfa2d394e1e5460b4ef3dc039214a16 -> 
+  custom:scripting/monoscript/fileName/_RecorderComponent.cs: 8c268d1df4e18643d83ea9c6eeba2d9f -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBaseEditor.cs: 13ee4931cd85df4b22852d0547b5e690 -> 
+  custom:scripting/monoscript/fileName/UpdateTracker.cs: 3dac8a24a32a32e4bbfeb38ed26ef250 -> 
+  custom:scripting/monoscript/fileName/CinemachineComposerEditor.cs: dda533b9c6cb2b366292f584704bd904 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollow.cs: 4600bac2bdf6b37d80e86f9aa5a413c3 -> 
+  custom:scripting/monoscript/fileName/IAccumulation.cs: 38dee62d444423165276e3254554d005 -> 
+  custom:scripting/monoscript/fileName/RecorderController.cs: 5760bd2995080b8d0d9d9e88ab8933c6 -> 
+  custom:scripting/monoscript/fileName/EXRRecorderSettings.cs: bf113df492cb5b25e11ec144a73c2f74 -> 
+  custom:scripting/monoscript/fileName/SaveDuringPlay.cs: de39f1962b337699845d3d8a2e8f5bde -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.614 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.785 seconds
+Domain Reload Profiling: 2396ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1786ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (690ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 13.20 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5857 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.3 MB). Loaded Objects now: 6489.
+Memory consumption went from 202.6 MB to 201.4 MB.
+Total: 3.676800 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.164600 ms MarkObjects: 2.646900 ms  DeleteObjects: 0.513200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CinemachineGroupComposerEditor.cs: 54a07f36704e77a685a5e7e8c8b2c216 -> 
+  custom:scripting/monoscript/fileName/WEBMRecorderSettingsEditor.cs: 5559c87f45d3b65fac8d5ac4ef5e81c8 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfinerEditor.cs: cc6c898a3390647ab91613c8a96de4b4 -> 
+  custom:scripting/monoscript/fileName/UIElementHelper.cs: 9f9438adfe3361012ea6280d4cdb2df4 -> 
+  custom:scripting/monoscript/fileName/AOVCameraInput.cs: c23c8ce885672bc57e25263b3efd067a -> 
+  custom:scripting/monoscript/fileName/BaseTextureRecorder.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Recorder.cs: a7e319d512627774f8215ba0b76f0bcb -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendDefinitionPropertyDrawer.cs: 7ae344d19d646b738f3c65294becf216 -> 
+  custom:scripting/monoscript/fileName/AudioRecorder.cs: 89550121570f22445b4a1b28daea3cf9 -> 
+  custom:scripting/monoscript/fileName/CinemachineTrackedDollyEditor.cs: b4d6784c58752cea58aafd9a76ca4459 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseManager.cs: c34be3577a810e26fd0110c580799b88 -> 
+  custom:scripting/monoscript/fileName/PanelSplitter.cs: 5ff6c6e385b6b12ca322a9c92ac6f371 -> 
+  custom:scripting/monoscript/fileName/ImageRecorderSettings.cs: a7ab05fac9382c03607c40fe73956ed6 -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPath.cs: c28db2688f35d70587b5f943431a010a -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCamera.cs: aea2468a7384be4ba6d1b043ccec135d -> 
+  custom:scripting/monoscript/fileName/RecorderClip.cs: 897017f45cb3c30f306724d1fa17a8fe -> 
+  custom:scripting/monoscript/fileName/GIFRecorderSettings.cs: 979f88ae1e7731daed242ab2fdebbc0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MovieRecorder.cs: 024785cf83e1399f425b2aa115d22e2b -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettings.cs: 9adcb80668a56be4cd8e31c1d3dc60ae -> 
+  custom:scripting/monoscript/fileName/SignalSourceAsset.cs: f7ffd463dece56bad278f5a8d3ed7fc6 -> 
+  custom:scripting/monoscript/fileName/RecorderControllerSettingsPresetEditor.cs: 49aed206ae65ed5ac6b420f7104cd52d -> 
+  custom:scripting/monoscript/fileName/CinemachineCore.cs: fe6c3be993819098833de1628bfd76b2 -> 
+  custom:scripting/monoscript/fileName/AudioInput.cs: 499e96d8f0b35d362bd956c0975bb873 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannelPropertyDrawer.cs: 4b6390a17916751618e2a45cb8d47a80 -> 
+  custom:scripting/monoscript/fileName/WEBMRecorderSettings.cs: c176c43abbe456aeea55c2aef862801b -> 
+  custom:scripting/monoscript/fileName/SerializedPropertyHelper.cs: b04ac165255e34bc2935ca9bf180e209 -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposer.cs: 7943c9d436748359882d8f978cf86c91 -> 
+  custom:scripting/monoscript/fileName/RecorderControllerSettingsPreset.cs: 78b391c1384ac60213ef58d50e78d553 -> 
+  custom:scripting/monoscript/fileName/AxisState.cs: 1a494a66d8b9a58f4a6873f89bf5b094 -> 
+  custom:scripting/monoscript/fileName/GameViewInputSettings.cs: a7ae22123f532f5bbcb39c654c998b57 -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShot.cs: 1da15f5c7903497ce3ae982ee4ee4779 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOVEditor.cs: 71db5a9242a182995b4ca15db516f628 -> 
+  custom:scripting/monoscript/fileName/GameViewInputPropertyDrawer.cs: ae2c8a99c5e33d3d1ffc8232415130e8 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixer.cs: 2e36eb9e732dd7c8a32e8f83daebd6f4 -> 
+  custom:scripting/monoscript/fileName/Camera360Input.cs: dc473b118c57e0734b0cd3476e333c06 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner.cs: 3813336c17662a5cb6b59ce5f1954254 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineBrain.cs: 365b4e0b6319f064062e97b8f8e32c8e -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinitionPropertyDrawer.cs: 1b2fc77b0a80a7e0e9045e0d44fb761c -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderPrefs.cs: 47106451d4685409820905badf49b71f -> 
+  custom:scripting/monoscript/fileName/CinemachineFollowZoom.cs: eb74e2e98d3dc4647324e113f34710ca -> 
+  custom:scripting/monoscript/fileName/RecorderPreferencesSettingsProvider.cs: d92d314b87f7c2170e267636ebf38224 -> 
+  custom:scripting/monoscript/fileName/RecorderBindings.cs: ac25db5b587307cfea909607f62e5641 -> 
+  custom:scripting/monoscript/fileName/CinemachineDebug.cs: 3077ed3b64725184c652d4c07ac732fd -> 
+  custom:scripting/monoscript/fileName/CinemachineLensPresets.cs: 014747fb0ab87178c677520d0bf20bf7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GIFWrapper.cs: 6ef8898a12699129e8f81f06a649cad1 -> 
+  custom:scripting/monoscript/fileName/SceneHook.cs: 80fa8928b499d44515dd60e0bc895128 -> 
+  custom:scripting/monoscript/fileName/AnimationInput.cs: e810137278708a698c5ccddaeb1a1e64 -> 
+  custom:scripting/monoscript/fileName/CinemachineCameraOffset.cs: a6887f67d3eb83cc6393b822d4e65121 -> 
+  custom:scripting/monoscript/fileName/ICinemachineCamera.cs: 2faad4f04eaf5d98c2870adbfb06184e -> 
+  custom:scripting/monoscript/fileName/OutputResolutionPropertyDrawer.cs: 0e33ffdf424417a2e685685cfc04d4b1 -> 
+  custom:scripting/monoscript/fileName/EnumHelper.cs: 117b5609cc2a1ae41785cd0c8767815f -> 
+  custom:scripting/monoscript/fileName/OutputPath.cs: ee51fcffcd8929d224a5e3fb152d5f62 -> 
+  custom:scripting/monoscript/fileName/CinemachineShotPlayable.cs: e346ad1ecb4af45da55274cb9abd9ec0 -> 
+  custom:scripting/monoscript/fileName/FileNameGeneratorDrawer.cs: a3ea71dec141084df9b7ffa19c11e2cb -> 
+  custom:scripting/monoscript/fileName/CinemachineTagFieldPropertyDrawer.cs: e78491a12decd558a49d01cc583bfcfb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CinemachineVolumeSettings.cs: 48d7865a989ec634d93ae8dcee459cea -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSourceEditor.cs: 0ef7804c69c18838aa65e6d5bae5b055 -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCameraEditor.cs: d74df442250b898c9b40669a19100e9d -> 
+  custom:scripting/monoscript/fileName/RecorderPreferencesWindowGUIScope.cs: 7a2eba6fcb6829ea8b200991a02c9c06 -> 
+  custom:scripting/monoscript/fileName/AspectRatio.cs: 18e3efa554f8258b676d4de53e38b642 -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroupEditor.cs: f70ac85df8c1c9bd0b83a35534bafd1f -> 
+  custom:scripting/monoscript/fileName/CinemachineRecomposer.cs: 07354cca81f7d0775b027b5906330569 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposer.cs: aa226dd144b3a977b86ea888b85df5fa -> 
+  custom:scripting/monoscript/fileName/TargetPositionCache.cs: 49ce97e6930a536b43825141e0c2d3a4 -> 
+  custom:scripting/monoscript/fileName/CameraInputSettings.cs: 6738f6dd994f658d2cbf6f5f3ba05a0e -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCamera.cs: d76122377115c288d881064c3f07a3f1 -> 
+  custom:scripting/monoscript/fileName/RefHandle.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ReflectionHelpers.cs: 60a5d38af3e775d0a421a7ff630d61cc -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCamera.cs: f16f2dc5bc1261579875c19605c45301 -> 
+  custom:scripting/monoscript/fileName/CameraCapture.cs: c6dcba1380d9a4fa09f4e36182a45a73 -> 
+  custom:scripting/monoscript/fileName/RecorderControllerSettings.cs: 989e0caa64af9b76551d4ff6bd15f598 -> 
+  custom:scripting/monoscript/fileName/Predictor.cs: d51584936cb5b31b30ee7b444e03385b -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposerEditor.cs: 5ea2e4bec7ee6c24917bd86647f4bffa -> 
+  custom:scripting/monoscript/fileName/TargetedPropertyDrawer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2DEditor.cs: 3f4b3d9b17ff5cd560135aa24f822994 -> 
+  custom:scripting/monoscript/fileName/MovieRecorderSettings.cs: 02a667a67b113b1f65e3fcadcc882513 -> 
+  custom:scripting/monoscript/fileName/GroupWeightManipulator.cs: 588749cf3436a8199e762a8e09bc8de7 -> 
+  custom:scripting/monoscript/fileName/RenderTextureInputSettings.cs: ebca820667a63031a7597db85d26451a -> 
+  custom:scripting/monoscript/fileName/ImageRecorderEditor.cs: d3134ae4c1dfd8e056bace11130b7692 -> 
+  custom:scripting/monoscript/fileName/ProResEncoderSettings.cs: 4aca03881946a7fe9acacf199434009e -> 
+  custom:scripting/monoscript/fileName/AxisStatePropertyDrawer.cs: 2d807695a513641e771c78e6c342ff04 -> 
+  custom:scripting/monoscript/fileName/CinemachineScreenComposerGuides.cs: cdc7ea02ccc4c8d1561d98d16760d1ca -> 
+  custom:scripting/monoscript/fileName/CinemachinePropertyAttribute.cs: e8158d9725ac3a9129a08e46a4ff7519 -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraEditor.cs: 2e051d0c474634e907fe4123d6e2656e -> 
+  custom:scripting/monoscript/fileName/_FrameRequestComponent.cs: b34f171daaafc65da55ea68e2ed89f2b -> 
+  custom:scripting/monoscript/fileName/RenderTextureInput.cs: 5dea77837ae3c82bb14643cd82dc06dc -> 
+  custom:scripting/monoscript/fileName/CinemachineSettings.cs: 197f6d5ad32e253546b5afa056a5bba4 -> 
+  custom:scripting/monoscript/fileName/RecorderAnalytics.cs: 0fa40093f6ac3fe75e92d746d563e5ee -> 
+  custom:scripting/monoscript/fileName/CinemachineNoiseSettingsEditor.cs: 9056e69d9c759ba2504535054fff31c9 -> 
+  custom:scripting/monoscript/fileName/MP4RecorderSettingsEditor.cs: 68a64b16a7961d71fa7286fd1f782e9b -> 
+  custom:scripting/monoscript/fileName/RecorderBindingsEditor.cs: f7451a0e1cea6404b2976d2b2c42e273 -> 
+  custom:scripting/monoscript/fileName/BaseRenderTextureInput.cs: 5dc13661a5a0dca5d09ca211933a44e2 -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerAction.cs: cab9c5d02c28af05797c2c3743539bdb -> 
+  custom:scripting/monoscript/fileName/StatusBarHelper.cs: da04a6ed046f8a62f416d5d3ea415bef -> 
+  custom:scripting/precompiled-assembly-types:Unity.Recorder: bd5378c99f6216e06dd6e2c2a60a86a4 -> 
+  custom:scripting/monoscript/fileName/InspectorUtility.cs: d2444697ecf5f370ee1ff9969e9d66f8 -> 1cf92e4af45cb9e9886ec49564b001a9
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettingsEditor.cs: c57aa7de12bc3e7367ca091f4902c67b -> 
+  custom:scripting/monoscript/fileName/Camera360InputSettings.cs: 3d5eaf1cb3a9df6f9d1d52f3c3018c46 -> 
+  custom:scripting/precompiled-assembly-types:Cinemachine: ddeb9d62afe5f9b9cc22254264a3a0e3 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinition.cs: 3d434086a2bdaf715abf85e79e9f14b4 -> 
+  custom:scripting/precompiled-assembly-types:com.unity.cinemachine.editor: 1f055bd45c76785b23209ab6ee180f29 -> 
+  custom:scripting/monoscript/fileName/PNGRecorderSettingsEditor.cs: 4970e6657bb34f7efc2c7d8168c7358b -> 
+  custom:scripting/monoscript/fileName/ImageHeightSelector.cs: d1a7972bf1d79d90f09ab23c718afe39 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollowEditor.cs: f79aa162534f81c680877e6274b5d6ec -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetPropertyDrawer.cs: fd7ebc18093de04c88d0cfc86fb060f5 -> 
+  custom:scripting/monoscript/fileName/AnimationInputSettings.cs: d64a99ebbd13660e9264cb4111ab9832 -> 
+  custom:scripting/monoscript/fileName/MP4RecorderSettings.cs: 551f5535c05b86d6ee91684eced14987 -> 
+  custom:scripting/monoscript/fileName/RecorderPreferencesSettings.cs: 761b0a55fc5e50239a1d0c4bfc968274 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/RecorderSettingsPrefsEditor.cs: ba9e697f1d269c2c960a41bc543fa408 -> 
+  custom:scripting/monoscript/fileName/RecordModePropertyDrawer.cs: 165332db07362bbcab2d8dc6d1e1dfda -> 
+  custom:scripting/monoscript/fileName/ProResWrapper.cs: 712515ef615766c98115c6a20d85d6c8 -> 
+  custom:scripting/monoscript/fileName/ImageInputSettings.cs: 98a2aedd167d40f01804b04845eeaf15 -> 
+  custom:scripting/monoscript/fileName/ConfinerOven.cs: ff23c03e90b61beb34474fc6e4ff668c -> 
+  custom:scripting/monoscript/fileName/SerializableObjHelper.cs: f19f181f3f05e8e393225dd7030fb66a -> 
+  custom:scripting/monoscript/fileName/WaveformWindow.cs: 01bbc4fc017d41a2bab7fb57c988e8da -> 
+  custom:scripting/monoscript/fileName/CinemachinePipeline.cs: 6ca7a5979a0a73ea1d450a8fc9b437ef -> 
+  custom:scripting/monoscript/fileName/InputPropertyDrawer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AudioInputSettings.cs: a2c930fca1dd5e27705fbacf39727bb4 -> 
+  custom:scripting/monoscript/fileName/VcamStageEditor.cs: 84b0eaf932b448975a99972628e556d8 -> 
+  custom:scripting/monoscript/fileName/InputSettings.cs: 35c56ce5488c6b464726305dcbd33b3d -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposerEditor.cs: 1653e1c00b2ca68b1d40f01e5bfb8445 -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCameraEditor.cs: 77d9f0a97385f936d9b4ffaa686bce39 -> 
+  custom:scripting/monoscript/fileName/RecorderEditor.cs: 736e59ba52eea987abc47f36a836e575 -> 
+  custom:scripting/monoscript/fileName/OrbitalTransposerHeadingPropertyDrawer.cs: 22496b76ce84f35f630c90badc4babd8 -> 
+  custom:scripting/monoscript/fileName/AudioRecorderSettings.cs: 0b00f2c93558486cc61a06f270f43fea -> 
+  custom:scripting/monoscript/fileName/CinemachinePathEditor.cs: ce10985fbf0e018e2dea63fedae131ba -> 
+  custom:scripting/monoscript/fileName/CinemachineCollider.cs: 8fa92f525b1c31cd81812685d7f8c288 -> 
+  custom:scripting/monoscript/fileName/RecordersInventory.cs: fb714c8df18f9b7fc7f3361f604ae3dc -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSourceEditor.cs: 29f9a522ec6b23375849ba08fd597c8d -> 
+  custom:scripting/monoscript/fileName/BaseFCRecorderSettings.cs: fab928553cedb8703ac192d6cf7b6294 -> 
+  custom:scripting/monoscript/fileName/AOVRecorderSettings.cs: cdc731153cd2f1f739300a28ea6a6608 -> 
+  custom:scripting/monoscript/fileName/CinemachineInputProvider.cs: ecb845de690695f08b3b3bb647cc7006 -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderEditor.cs: 859d1abbd669ee84cb713f6d4d0e1c5f -> 
+  custom:scripting/monoscript/fileName/EXRCompressionTypeDrawer.cs: 301cb614ecf84a4dab346c5f76ea2016 -> 
+  custom:scripting/monoscript/fileName/CinemachineExtension.cs: 6968db4afcdc301f6acb1ef4fbadb2f4 -> 
+  custom:scripting/monoscript/fileName/AOVRecorder.cs: c53e83f1863b3ea80b6df3885cdb8c82 -> 
+  custom:scripting/monoscript/fileName/IEncoderSettings.cs: c7d04fadacf538db841606cc656ae724 -> 
+  custom:scripting/monoscript/fileName/ShutterProfileTypePropertyDrawer.cs: 18a32c647eca27716eabcb5a44f00e32 -> 
+  custom:scripting/monoscript/fileName/MovieRecorderEditor.cs: eb00ddb8a76b8dfb7c88b7826a49d38b -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroup.cs: 10a09aa736b3a25da6dd9fc3c4dd9d36 -> 
+  custom:scripting/monoscript/fileName/RenderTextureInputSettingsPropertyDrawer.cs: 809602b52454cd1e6229756218a8f453 -> 
+  custom:scripting/monoscript/fileName/RecorderPlayableBehaviour.cs: 80165a21f4cd0dda690f708a19d389bd -> 
+  custom:scripting/monoscript/fileName/GifEncoderSettingsPropertyDrawer.cs: b36c9a7eaaefccda514b23d7e14761ca -> 
+  custom:scripting/monoscript/fileName/PNGRecorder.cs: 08fd40f88cb6b18c96882f263639f57d -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetHelpers.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CameraInputSettingsPropertyDrawer.cs: 91928abf1abf88be098cb088d896aec5 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCamera.cs: 66104ac24fef171d9f5d5b93a8cb2f83 -> 
+  custom:scripting/monoscript/fileName/AudioRecorderEditor.cs: 565168dec291afe3fa470657cfc2c123 -> 
+  custom:scripting/monoscript/fileName/AOVRecorderEditor.cs: 5ca53ccd6d7645709639507726114395 -> 
+  custom:scripting/monoscript/fileName/CinemachineComponentBase.cs: 5293f153c13e9bd2fc262ec31ff69206 -> 
+  custom:scripting/monoscript/fileName/BaseEditor.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAt.cs: 792580aec23d39bcecd7ceea4c27a0ce -> 
+  custom:scripting/monoscript/fileName/RecordingSession.cs: f3ad08157c278a036224ca395f350890 -> 
+  custom:scripting/monoscript/fileName/CinemachineInputAxisDriver.cs: 7e424e54660fed310c58dc98ea41042e -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboardEditor.cs: 2e7ec8bfb72013eaaff4873a27da019c -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlin.cs: bd5416e75860cd63657371207eb79058 -> 
+  custom:scripting/monoscript/fileName/GameViewSize.cs: f6128a6515fcafce6db32fcdfa107254 -> 
+  custom:scripting/monoscript/fileName/CinemachineVolumeSettingsEditor.cs: 7c8fb727adcc2db0614f3f0f2f35cb54 -> 
+  custom:scripting/monoscript/fileName/UnityHelpers.cs: b3e077029b574be508585124a9d839ef -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/GIFRecorder.cs: c00ece885699fb9084deaccd3eb27518 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCamera.cs: 739c5ceb76c01023f431794ec46a0177 -> 
+  custom:scripting/monoscript/fileName/CinemachinePath.cs: b443d3c8837a65ddc3c78741cd58ec71 -> 
+  custom:scripting/monoscript/fileName/EXRRecorder.cs: 3f576ce8ddd959d51a4d7ba1999ecdbb -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListenerEditor.cs: d5d28e418f87c111bce1c1b98f1f70ba -> 
+  custom:scripting/monoscript/fileName/RenderTextureSampler.cs: 1a7b9abab9548e1054dc40d6e2fa0270 -> 
+  custom:scripting/monoscript/fileName/GifEncoder.cs: 40f336d5c5042a8a04556b4c5804a538 -> 
+  custom:scripting/monoscript/fileName/WEBMRecorder.cs: 391b6b920cfbc02401ea522620320c93 -> 
+  custom:scripting/monoscript/fileName/CinemachineDollyCart.cs: bbe9d07f4a2f7ee5ab002e66cb05f922 -> 
+  custom:scripting/monoscript/fileName/GenericRecorder.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboard.cs: 59a2099f76be9b47af1e12ed7d40f553 -> 
+  custom:scripting/monoscript/fileName/ImageInputSelector.cs: f55822da877594150873922341be92b6 -> 
+  custom:scripting/monoscript/fileName/AnimationRecorderSettingsEditor.cs: db1294bf3d48be44b6e4b2f2cc100b02 -> 
+  custom:scripting/monoscript/fileName/RecorderTrack.cs: fac9638ece7eb7daaa1302fa170613fd -> 
+  custom:scripting/monoscript/fileName/InputSettingsSelector.cs: 499a4ec92267406782b5c4f3472d53b9 -> 
+  custom:scripting/monoscript/fileName/CinemachinePixelPerfect.cs: b7f26206e386f5a110efe79462337683 -> d8eeccc3084a3215230031c76ddf563b
+  custom:scripting/monoscript/fileName/CinemachineTrackedDolly.cs: f6a9c21b27ad86d45f62f6b444ccbb49 -> 
+  custom:scripting/monoscript/fileName/FileNameGenerator.cs: 5c8b6eb5291c3311189e0dfadac99363 -> 
+  custom:scripting/monoscript/fileName/RecorderItem.cs: b62d2fcb9547a248575727d8a1646db8 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAtEditor.cs: 15b8f2af6a6d786898ce5dd6b0db26dc -> 
+  custom:scripting/monoscript/fileName/TextureFlipper.cs: 825b503b2ddab9cbd8ebbf3038075092 -> 
+  custom:scripting/monoscript/fileName/AccumulationSettings.cs: fb962f0c2333934b681b167574f5e1cd -> 
+  custom:scripting/monoscript/fileName/CinemachineComposer.cs: e399dfd36807c341da7cd182ce299d1e -> 
+  custom:scripting/monoscript/fileName/CinemachineTrack.cs: 4b50d47d507c57dc81b82253ec075194 -> 
+  custom:scripting/monoscript/fileName/Camera360InputPropertyDrawer.cs: af647a2fe91bec98139246321cac865d -> 
+  custom:scripting/monoscript/fileName/RecorderClipEditor.cs: 947ad5ff1f968d7fc40767d187070964 -> 
+  custom:scripting/monoscript/fileName/EXRRecorderSettingsEditor.cs: c520a04c5f01331f2c8800e289ef6d6f -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPathEditor.cs: 7555bcba4eb760e012dd21c6730ae562 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectUtility.cs: c529d074f6f57a07e3f410d488963bbc -> 
+  custom:scripting/monoscript/fileName/CoreEncoder.cs: dfaed86e82ad12e6a2b6740a0fb35820 -> 
+  custom:scripting/monoscript/fileName/PNGRecorderSettings.cs: 79a421225358808ff14dd88c0355d1b6 -> 
+  custom:scripting/monoscript/fileName/AspectRatioPropertyDrawer.cs: 9f18568574138839573389bde3e660a7 -> 
+  custom:scripting/monoscript/fileName/ProResEncoder.cs: b375bf2d41e3d89081c3f2d1a0823bf3 -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposer.cs: 71c52878ba6d43827473a480056a99da -> 
+  custom:scripting/monoscript/fileName/CameraInput.cs: bf7e0df3caf9e500f6d1c98c99e165ba -> 
+  custom:scripting/monoscript/fileName/RecorderSettings.cs: bc3ef26ac157af28e5460886c0d5ef2e -> 
+  custom:scripting/monoscript/fileName/CinemachinePathBase.cs: debb99764287c54cae06313e2d6a1fe1 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSource.cs: ac073b8453e26c5dd422d5f1a90a7ff2 -> 
+  custom:scripting/monoscript/fileName/RecorderClipTimelineEditor.cs: 2995d9f50ebc9245c6e9bd75c56415fb -> 
+  custom:scripting/monoscript/fileName/EncoderSettingsAttribute.cs: 8352396dc11cff58c65c429fdb4fc67e -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseEnvelopePropertyDrawer.cs: 07e00c9c84964a5c7e4f3f19e4263ec1 -> 
+  custom:scripting/monoscript/fileName/SplineHelpers.cs: 9e5bf4293b3828088291b7871e233a27 -> 
+  custom:scripting/monoscript/fileName/MP4Recorder.cs: af531c4e1f6d23547da08837eb16b729 -> 
+  custom:scripting/monoscript/fileName/EncoderTypeUtilities.cs: a12c4c78a6cd4fb6b93180d59ad77be8 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTargetEditor.cs: 6def40fc1e39b3242347b6630fb5127e -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCameraEditor.cs: dbc12d2a9f3e2999a067290c411b2aca -> 
+  custom:scripting/monoscript/fileName/PooledBufferAsyncGPUReadback.cs: 2a4e50c5dda177306c9ec935763c4378 -> 
+  custom:scripting/monoscript/fileName/CinemachineShot.cs: 3d4d9d05534db20e82d871d98ea52716 -> 
+  custom:scripting/monoscript/fileName/UnityVectorExtensions.cs: 052777772edecdffe26d41a6a989641e -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlinEditor.cs: d6749cd6c482efa27bdd41f60394f1b9 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannels.cs: a9a39cc5ecea1f083db0fce154eec19c -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTarget.cs: d349308c5b4f600a345055c394206f52 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2D.cs: beb10be0db8ff9d3a94bd0a150963b9b -> 
+  custom:scripting/monoscript/fileName/LensSettings.cs: 4335e899502c57ee4480b8c9aa915366 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonAim.cs: 4bd230d915f070bb3cae23bef6f7ab70 -> 
+  custom:scripting/monoscript/fileName/AnimationRecorder.cs: f749a4250195b5467bbf05e3a976b59f -> 
+  custom:scripting/precompiled-assembly-types:Unity.Recorder.Base: 3fec19fdf10e3518c41e41a932f2042f -> 
+  custom:scripting/monoscript/fileName/AnimationRecorderSettings.cs: 5cfb1544a40f93fe0ea879bb1361c877 -> 
+  custom:scripting/monoscript/fileName/RenderTextureSamplerSettings.cs: 68adab84706346f2ecbdfd649ca9cf61 -> 
+  custom:scripting/monoscript/fileName/RecordingContext.cs: af9af1e8b283703482ba133924b5585a -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListener.cs: 6aac146243d38e7a67346170caa40ea1 -> 
+  custom:scripting/monoscript/fileName/RecorderSelector.cs: c3cd2caacd181d6eff54dc260c4a1ffb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/RecorderInput.cs: 88fd8d8fd71b34ed7298a01f6c2d2e40 -> 
+  custom:scripting/monoscript/fileName/RenderTextureSamplerPropertyDrawer.cs: b541817d9cc9b1341d2ddfa8823b718d -> 
+  custom:scripting/monoscript/fileName/CinemachineMenu.cs: 7b932811d9fa1e44d0d8b2b9ed75adf3 -> 
+  custom:scripting/monoscript/fileName/RuntimeUtility.cs: 8c92a9f673836e5d2084dbeb0f10159f -> 
+  custom:scripting/monoscript/fileName/RecorderSettingsAttribute.cs: ddd228b25da7ba2ac10d13e1efacc875 -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLook.cs: bebc32b18bc4beddc113bad68624e557 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CinemachineGroupComposer.cs: 173a689a80ef321c302f9c045419668f -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBase.cs: c7e60cccdcb14ee2a33da9fd46c1c54f -> 
+  custom:scripting/monoscript/fileName/CinemachineFixedSignal.cs: aedcdca7a861da6e456e0ae105b24c41 -> 
+  custom:scripting/monoscript/fileName/OutputPathDrawer.cs: cffc34c1be094e6caeb13ff3b26ca679 -> 
+  custom:scripting/monoscript/fileName/CinemachineShotClipEditor.cs: 123a48531bf1d1b4f3c8398556caec62 -> 
+  custom:scripting/monoscript/fileName/EditorVersionsHelper.cs: 3ad9098caeeff0295dba8c0911f5333a -> 
+  custom:scripting/monoscript/fileName/CinemachineTouchInputMapper.cs: b9698729a07a7d31c864247e0582b566 -> 
+  custom:scripting/monoscript/fileName/SettingAsset.cs: 7c3790954696ae83d71055079b387931 -> 
+  custom:scripting/monoscript/fileName/OutputResolution.cs: 31c632d97e9a69bcc2ef10f6feb5bf62 -> 
+  custom:scripting/monoscript/fileName/AccumulationSettingsPropertyDrawer.cs: bfc920db0de3c29c2967e88aac1c1027 -> 
+  custom:scripting/monoscript/fileName/AnimationInputSettingsPropertyDrawer.cs: ebe1771fecebe7a93badf6354f59c990 -> 
+  custom:scripting/monoscript/fileName/CoreEncoderSettings.cs: 2b5db1db3c1fa7de4175a7e143de3ce5 -> 
+  custom:scripting/monoscript/fileName/VisualListItem.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOV.cs: e4df06d1994174afa286b103eb06ee7f -> 
+  custom:scripting/monoscript/fileName/FrameRateProperyDrawer.cs: c478c798f5354f66af45b380be0629f9 -> 
+  custom:scripting/monoscript/fileName/InputSettingsSelectorDrawer.cs: bca46dd5b59e2f574c94bef4cdb878fb -> 
+  custom:scripting/monoscript/fileName/CinemachineBlend.cs: f33659d50c4d86144d649aa7e8196529 -> 
+  custom:scripting/monoscript/fileName/RecorderWindow.cs: 553a30d64d5ef1dcad6b00b4eeeb3829 -> 
+  custom:scripting/monoscript/fileName/AOVCameraInputSettings.cs: 4d2fdf1142ce53d73cb43d39944ba516 -> 
+  custom:scripting/monoscript/fileName/EnumProperyDrawer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLookEditor.cs: 9641291977c1891a004ac4c4c259e1c8 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposerEditor.cs: 85841a774ddea4fb7232a7a585f716b4 -> 
+  custom:scripting/monoscript/fileName/clipper.cs: 53f5c40fad751f34bbeafb535c00f79e -> 22e13a245d7963b8d93b36b8648c74f6
+  custom:scripting/monoscript/fileName/NoiseSettings.cs: 443d576e0c72ab62870476103c9384ec -> 
+  custom:scripting/monoscript/fileName/GaussianFilter.cs: 0a3672ebe80edf7c5daca82445c15683 -> 
+  custom:scripting/monoscript/fileName/CinemachineSceneTools.cs: d63880a6073ab3335301b115db235b5b -> 
+  custom:scripting/monoscript/fileName/AOVImageInputSelector.cs: b741d8d3a7cbb503c5bdf23d7e6792db -> 
+  custom:scripting/monoscript/fileName/CoreEncoderSettingsPropertyDrawer.cs: c8bdf3420d844fd4604c0d0cf3815355 -> 
+  custom:scripting/monoscript/fileName/GifEncoderSettings.cs: 812ca6afdf48b830953d76adab9d4030 -> 
+  custom:scripting/monoscript/fileName/GIFRecorderSettingsEditor.cs: 4d0f46bcf58d188895fabae5334995ae -> 
+  custom:scripting/monoscript/fileName/IEncoder.cs: 007c2ef621b0d92b5a7a6bae91d26090 -> 
+  custom:scripting/monoscript/fileName/RecorderOptions.cs: 74782d297e80d8f56c0e05a7cde4e51d -> 
+  custom:scripting/precompiled-assembly-types:Unity.Recorder.Editor: cd22b836ef1ca10e7d8c91c9be46b4bf -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerActionEditor.cs: 2309a2ec6192ace4cae8bab5a535978e -> 
+  custom:scripting/monoscript/fileName/VcamTargetPropertyDrawer.cs: 9208050b1312b118a226fef2d63e8fa1 -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSource.cs: 9aae5e368cb7786be199f98f2122f96d -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShotEditor.cs: ca8875b47e775cd361c78158d7923690 -> 
+  custom:scripting/monoscript/fileName/CinemachineEditorAnalytics.cs: de76cc292d7ecedcf47af6616498c9f9 -> 
+  custom:scripting/monoscript/fileName/ProResEncoderSettingsPropertyDrawer.cs: 68c25e6d4459336217d4b9e22eb707b4 -> 
+  custom:scripting/monoscript/fileName/ImageRecorder.cs: b804c29bfc59a61db184c1d275fe4101 -> 
+  custom:scripting/monoscript/fileName/NoiseSettingsPropertyDrawer.cs: 8d3f69ba7eeec63914970bd3136b6ace -> 
+  custom:scripting/monoscript/fileName/EditableLabel.cs: 4f8fa2c6092744ed6607a411e3f617c0 -> 
+  custom:scripting/monoscript/fileName/CinemachineBrainEditor.cs: 49621d8b7679c0b5d128fef53d55becd -> 
+  custom:scripting/monoscript/fileName/CinemachineShotEditor.cs: 2ba28b209a4ad7f0a791994d2360a9af -> 
+  custom:scripting/monoscript/fileName/GameViewInput.cs: 596e7ffa2d11b2002176644af3247ea6 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTargetEditor.cs: c65eaafd47115974a2a9379aae467b0e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraState.cs: 3ec03858e4f5bd5578e14e2ade4f1591 -> 784b031cde26e82771e0f45b6a811817
+  custom:scripting/monoscript/fileName/SerializedDictionnary.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineToolbarOverlay.cs: 371b6fc494252d6fda34e207e170cb66 -> 
+  custom:scripting/monoscript/fileName/HammersleySequence.cs: b06601f044912976f668045b7d4c79a8 -> 
+  custom:scripting/monoscript/fileName/CinemachineIndependentImpulseListener.cs: 91ae8748b9c36955c333e57505ff90fb -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCameraEditor.cs: 1c122a21d710512fec62cdc7bd351681 -> 
+  custom:scripting/monoscript/fileName/CinemachinePostProcessing.cs: bf9b100a1b61fd5383288bc96487c194 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTarget.cs: bcfa2d394e1e5460b4ef3dc039214a16 -> 
+  custom:scripting/monoscript/fileName/_RecorderComponent.cs: 8c268d1df4e18643d83ea9c6eeba2d9f -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBaseEditor.cs: 13ee4931cd85df4b22852d0547b5e690 -> 
+  custom:scripting/monoscript/fileName/UpdateTracker.cs: 3dac8a24a32a32e4bbfeb38ed26ef250 -> 
+  custom:scripting/monoscript/fileName/CinemachineComposerEditor.cs: dda533b9c6cb2b366292f584704bd904 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollow.cs: 4600bac2bdf6b37d80e86f9aa5a413c3 -> 
+  custom:scripting/monoscript/fileName/IAccumulation.cs: 38dee62d444423165276e3254554d005 -> 
+  custom:scripting/monoscript/fileName/RecorderController.cs: 5760bd2995080b8d0d9d9e88ab8933c6 -> 
+  custom:scripting/monoscript/fileName/EXRRecorderSettings.cs: bf113df492cb5b25e11ec144a73c2f74 -> 
+  custom:scripting/monoscript/fileName/SaveDuringPlay.cs: de39f1962b337699845d3d8a2e8f5bde -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4469.604852 seconds.
+  path: Assets/Renders (creo)/Gangsters_1/Dead.png
+  artifactKey: Guid(e06d50b5765a6394db1636d9cb232948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Renders (creo)/Gangsters_1/Dead.png using Guid(e06d50b5765a6394db1636d9cb232948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '16cd762dedc5997338733ec95cc3738f') in 0.236564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Renders (creo)/Gangsters_1/Run.png
+  artifactKey: Guid(22e65f444516f834796eb8c45e789d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Renders (creo)/Gangsters_1/Run.png using Guid(22e65f444516f834796eb8c45e789d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd107610caf6890db4ca4b50b75b6a3dc') in 0.024956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Renders (creo)/Gangsters_1/Walk.png
+  artifactKey: Guid(b3ae89efdc5908c418fa2b2f9f070228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Renders (creo)/Gangsters_1/Walk.png using Guid(b3ae89efdc5908c418fa2b2f9f070228) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32145c8e371679357955c04db51c01fc') in 0.018653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Renders (creo)/Gangsters_1/Idle.png
+  artifactKey: Guid(c7b984c368c94cb4eaade7d562626961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Renders (creo)/Gangsters_1/Idle.png using Guid(c7b984c368c94cb4eaade7d562626961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be6a1be7a61eca23065eedcd27a34fbe') in 0.027320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
